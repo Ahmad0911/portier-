@@ -1,0 +1,713 @@
+body {
+    width: 1440px;
+    height: 88px;
+    background: #12121C;
+}
+header p{
+width: 8px;
+height: 35px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+color: #FFFFFF;
+padding-left: 10%;
+padding-top: 2%;
+
+}
+
+header img{
+position: absolute;
+padding-left: 8%;
+padding-top: 4%;
+}
+header {
+    color: #FFFFFF;
+    padding-left: 8%;
+}
+h1{
+    color: #FFFFFF;
+    padding-left: 8%;
+}
+
+article h5{
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: #FFFFFF;
+    padding-left: 8%;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+.topnav {
+  color: #FFFFFF;
+  padding-top: 1%;
+  padding-right: 15%;
+  max-width: 1200px;
+  gap:8px;
+}
+
+.topnav a{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    gap:8px;
+    width: 92px;
+height: 20px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+}
+
+h6{
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: #FFFFFF;
+    padding-left: 8%;
+}
+
+.topnav :active{
+    background-color: gray;
+}
+
+.stack{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: #FFFFFF;
+    padding-left: 8%;
+}
+
+.first p{
+    color: #FFFFFF;
+    font-size: 11px;
+}
+
+.first img{
+width: 44px;
+height: 44px;
+background: #222233;
+border-radius: 8px;
+position: absolute;
+left: 6.67%;
+right: 6.67%;
+top: 6.67%;
+bottom: 6.67%;
+background: #FFFFFF;
+}
+/* Design Icon */
+
+width: 44px;
+height: 44px;
+
+/* Steel Gray */
+background: #222233;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 15px;
+top: 14px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 6.67%;
+right: 6.67%;
+top: 6.67%;
+bottom: 6.67%;
+
+/* White */
+background: #FFFFFF;
+
+.second p{
+    color: #FFFFFF;
+    font-size: 11px;
+}
+.third p{
+    color: #FFFFFF;
+    font-size: 11px;
+}
+
+.banner1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: auto;
+}
+.zero{
+    justify-content: center;
+}
+.banner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: auto;
+}
+.one{
+    justify-content: center;
+}
+.banner3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: auto;
+}
+.two{
+    justify-content: center;
+}
+.banner4{
+    display: grid;
+    justify-content: space-between;
+    align-content: center;
+    gap: 50px;
+  
+}
+.banner4 p{
+    width: 531px;
+    height: 168px;
+    padding-left: 14%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    /* or 117% */
+    letter-spacing: -0.02em;
+    
+    /* White */
+    color: #FFFFFF; 
+}
+
+.banner4 h6{
+    width: 531px;
+    height: 48px;
+    
+    /* Caption1 */
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 14%;
+    line-height: 24px;
+    /* or 171% */
+    
+    /* Aluminium */
+    color: #88888D;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;    
+}
+.three{
+ position: absolute;
+width: 600px;
+height: 600px;
+left: 750px;
+top: 120px;
+padding-top: 2800px;
+background: url(alex-bachor-fWsT3PpoE-A-unsplash.jpg);
+border-radius: 8px;
+}
+.testimonies{
+    width: 1440px;
+height: 970px;
+
+
+background: #12121C;
+}
+.testimonies h3{
+    width: 646px;
+height: 56px;
+padding-left: 7%;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+
+/* identical to box height, or 117% */
+letter-spacing: -0.02em;
+
+/* White */
+color: #FFFFFF;
+}
+
+.testimonies h6{
+    width: 531px;
+height: 48px;
+
+/* Caption1 */
+font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+/* or 171% */
+
+/* Aluminium */
+color: #88888D;
+
+
+}
+.testimonies h6 .seperate{
+    position: absolute;
+width: 422px;
+height: 24px;
+left: 90px;
+top: 826px;
+
+/* Caption1 */
+font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+/* identical to box height, or 171% */
+
+/* Aluminium */
+color: #88888D;
+
+}
+.work h3{
+    position: absolute;
+width: 646px;
+height: 168px;
+left: 90px;
+top: 120px;
+padding-top: 280%;
+
+/* Headline2 */
+font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+/* or 117% */
+letter-spacing: -0.02em;
+
+/* White */
+color: #FFFFFF;
+}
+
+.goal h4{
+    width: 531px;
+    height: 168px;
+    padding-left: 60%;
+    left: 750px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 1%;
+    /* or 117% */
+    letter-spacing: -0.02em;
+    
+    /* White */
+    color: #FFFFFF;
+    
+}
+.goal h5{
+    width: 531px;
+height: 48px;
+padding-left: 60%;
+left: 750px;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+color: #88888D;
+
+
+}
+
+.goal img{
+    position: absolute;
+width: 600px;
+height: 600px;
+left: 100px;
+top: 120px;
+padding-top: 310%;
+background: url(daniel-korpai-UIiWnE58U_o-unsplash);
+border-radius: 8px;
+}
+.touch h3{
+    position: absolute;
+width: 508px;
+height: 168px;
+left: 870px;
+top: 120px;
+padding-top: 358%;
+/* Headline2 */
+font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+/* or 117% */
+letter-spacing: -0.02em;
+
+/* White */
+color: #FFFFFF;
+}
+
+.touch h5{
+    width: 530px;
+height: 48px;
+
+/* Caption1 */
+font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+padding-left: 8%;
+padding-top: 5%;
+font-size: 14px;
+
+/* Aluminium */
+color: #88888D;
+}
+.touch h4{
+ width: 97px;
+height: 24px;
+padding-left: 8%;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+/* identical to box height, or 150% */
+
+/* White */
+color: #FFFFFF;
+}
+footer{
+    width: 1440px;
+    height: 452px;
+
+    background: #222233;
+}
+footer h4{
+width: 89px;
+height: 35px;
+padding-left: 8%;
+padding-top: 5%;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+color: #FFFFFF;
+
+}
+
+
+footer p{
+
+    position: absolute;
+    width: 328px;
+    height: 24px;
+    padding-left: 8%;
+    padding-top: 13%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #88888D;
+
+}
+footer div{
+position: absolute;
+width: 291px;
+height: 24px;
+
+top: 200px;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding-top: 380%;
+padding-left: 8%;
+gap: 20px;
+}
+
+
+
+
+/* Footer */
+
+width: 1440px;
+height: 452px;
+
+background: #222233;
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* Logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 141px;
+height: 44px;
+left: 90px;
+top: 120px;
+
+
+
+/* Frame */
+
+width: 44px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 20%;
+right: 19.67%;
+top: 13.33%;
+bottom: 13.33%;
+
+background: #FFFFFF;
+
+
+/* Portier */
+
+width: 89px;
+height: 35px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 35px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Copyright 2021 © Portier. All right reserved */
+
+position: absolute;
+width: 328px;
+height: 24px;
+left: 90px;
+top: 300px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Aluminium */
+color: #88888D;
+
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 200px;
+height: 32px;
+left: 1150px;
+top: 300px;
+
+
+
+/* Footer Twitter Icon */
+
+width: 32px;
+height: 32px;
+
+/* Steel Gray */
+background: #222233;
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 9px;
+top: 8px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 6.63%;
+right: 1.97%;
+top: 10.46%;
+bottom: 13.5%;
+
+/* White */
+background: #FFFFFF;
+
+
+/* Footer Github Icon */
+
+width: 32px;
+height: 32px;
+
+/* Lime Green */
+background: #57EFB4;
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 9px;
+top: 8px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 5.67%;
+right: 5.67%;
+top: 5.67%;
+bottom: 7.85%;
+
+/* Steel Gray */
+background: #222233;
+
+
+/* Footer Figma Icon */
+
+width: 32px;
+height: 32px;
+
+/* Steel Gray */
+background: #222233;
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame */
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 9px;
+top: 8px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 20%;
+right: 20%;
+top: 6.65%;
+bottom: 6.67%;
+
+/* White */
+background: #FFFFFF;
+
+
+/* Footer CodeSand Icon */
+
+width: 32px;
+height: 32px;
+
+/* Steel Gray */
+background: #222233;
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame */
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 9px;
+top: 8px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 6.67%;
+right: 6.67%;
+top: 5%;
+bottom: 5%;
+
+/* White */
+background: #FFFFFF;
